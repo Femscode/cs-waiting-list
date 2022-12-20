@@ -27,7 +27,7 @@
                        </button>
                 </div>
                 <div class="image-cont">
-                    <img src="/Oops! 404 Error with a broken robot-rafiki 1.svg" alt="">
+                    <img src="{{ asset('404/oops.svg') }}" alt="">
                 </div>
             </div>
         </div>
