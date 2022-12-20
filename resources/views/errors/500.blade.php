@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404 Page</title>
-    <link rel="stylesheet" href="404/style.css">
+    <link rel="stylesheet" href="{{ asset('404/style.css')}}">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 
@@ -14,7 +14,7 @@
     <div class="container">
         <div class="cont-head">
             <div class="logo">
-                <img src="404/connectskillz.svg" alt="">
+                <img src="{{ asset('connectskillz.svg')}}" alt="">
             </div>
             <div class="wrapper-cont">
                 <div class="wrapper">
