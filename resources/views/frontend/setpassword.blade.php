@@ -85,7 +85,7 @@
                     showConfirmButton: false,
 	                timer:1000
                     });
-                        window.location.replace("/waitlist/login");
+                        window.location.replace("/login");
                     }
                     else {
                         Swal.fire('Incorrect Password!', 'The password must match, and must be of a minimum length of 5 characters with at least one special characters', 'error')

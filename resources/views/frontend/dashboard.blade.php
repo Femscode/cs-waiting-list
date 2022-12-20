@@ -33,9 +33,9 @@
 
             <div class="nvbox">
                 <ul class="hd-nav">
-                    <li class="dg-a"> <a href="/waitlist/dashboard">Overview</a> </li>
-                    <li class="dg-a"> <a href="/waitlist/refer_friend">Refer a Friend</a></li>
-                    <li class="dg-c"><a href="/waitlist/logout"
+                    <li class="dg-a"> <a href="/dashboard">Overview</a> </li>
+                    <li class="dg-a"> <a href="/refer_friend">Refer a Friend</a></li>
+                    <li class="dg-c"><a href="/logout"
                             onclick="return confirm('Are you sure you want to log out?')">Logout</a></li>
                 </ul>
             </div>
@@ -111,7 +111,7 @@
             @endif
             @endforeach
         	<p style='width:100%;text-align:right'>
-            <a style='text-align:center;justify-content:right' class='btn btn-primary'href='/waitlist/overview'>See More→</a>
+            <a style='text-align:center;justify-content:right' class='btn btn-primary'href='/overview'>See More→</a>
          
           </p>
 

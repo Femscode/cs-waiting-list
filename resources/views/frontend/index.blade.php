@@ -65,8 +65,8 @@
 
             <nav >
                 <ul class="nav-sp">
-                    <li><a href="/waitlist/faq">FAQS</a></li>
-                    <li><a href="/waitlist/login" class="spr-btn">Login</a></li>
+                    <li><a href="/faq">FAQS</a></li>
+                    <li><a href="/login" class="spr-btn">Login</a></li>
                 </ul>
 
 

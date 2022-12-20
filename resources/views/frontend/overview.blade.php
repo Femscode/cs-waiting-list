@@ -29,9 +29,9 @@
            
             <div class="nvbox" >
                 <ul class="hd-nav">
-                    <li class="dg-a"> <a href="/waitlist/dashboard">Overview</a> </li>
-                    <li class="dg-b"> <a href="/waitlist/refer_friend">Refer a Friend</a></li>
-                    <li class="dg-c"><a href="/waitlist/logout">Logout</a></li>
+                    <li class="dg-a"> <a href="/dashboard">Overview</a> </li>
+                    <li class="dg-b"> <a href="/refer_friend">Refer a Friend</a></li>
+                    <li class="dg-c"><a href="/logout">Logout</a></li>
                 </ul>
             </div>
             

@@ -29,9 +29,9 @@
            
             <div class="nvbox" >
                 <ul class="hd-nav">
-                    <li class="dg-a"> <a href="/waitlist/dashboard">Overview</a> </li>
-                    <li class="dg-a"> <a href="/waitlist/refer_friend">Refer a Friend</a></li>
-                    <li class="dg-c"><a href="/waitlist/logout"
+                    <li class="dg-a"> <a href="/dashboard">Overview</a> </li>
+                    <li class="dg-a"> <a href="/refer_friend">Refer a Friend</a></li>
+                    <li class="dg-c"><a href="/logout"
                             onclick="return confirm('Are you sure you want to log out?')">Logout</a></li>
                
                 </ul>

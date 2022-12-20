@@ -30,7 +30,7 @@
         <nav >
             <ul class="nav-sp">
                 <li><a href="#">FAQS</a></li>
-                <li><a href="/waitlist/login" class="spr-btn">Login</a></li>
+                <li><a href="/login" class="spr-btn">Login</a></li>
             </ul>
 
 
@@ -165,7 +165,7 @@
                             </div>
                             <div class="answers">
         
-                                    <p>You will get the fastest and most exclusive information when you are registered on the <a href="assets/index.html" class="wl-lnk">waitlist</a>. We will also provide all the necessary information on the website, on Twitter and on Instagram to keep you up-to-date.</p>
+                                    <p>You will get the fastest and most exclusive information when you are registered on the <a href="/waitlist" class="wl-lnk">waitlist</a>. We will also provide all the necessary information on the website, on Twitter and on Instagram to keep you up-to-date.</p>
                                 <!-- </div> -->
                                 
                             </div>
