@@ -68,6 +68,9 @@ class UserController extends Controller
     public function landing()
     {
     //    dd('here');
+    return redirect('https://connectinskillz.org');
+    }
+    public function waitlist() {
         return view('frontend.index');
     }
     public function refer_home($slug) {

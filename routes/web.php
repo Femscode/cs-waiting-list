@@ -16,6 +16,7 @@ Route::any('home', function() {
 
 // Route::any('/', [App\Http\Controllers\UserController::class, 'homepage'])->name('homepage');
 Route::any('/', [App\Http\Controllers\UserController::class, 'landing'])->name('landing');
+Route::any('/waitlist', [App\Http\Controllers\UserController::class, 'waitlist'])->name('waitlist');
 Route::any('/overview', [App\Http\Controllers\UserController::class, 'overview'])->name('overview');
 Route::any('/refer_friend', [App\Http\Controllers\UserController::class, 'refer_friend'])->name('refer_friend');
 
