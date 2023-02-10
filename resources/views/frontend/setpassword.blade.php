@@ -96,7 +96,7 @@
                 success: function(data) {
                     // window.location.reload()
                     console.log(data)
-                    if(data == true) {
+                    // if(data == true) {
                         Swal.fire({
 	                title:"Password set successfully!",
 	                text:"Loading...",
@@ -105,11 +105,11 @@
 	                timer:1000
                     });
                         window.location.replace("/login");
-                    }
-                    else {
-                        Swal.fire('Incorrect Password!', 'The password must match, and must be of a minimum length of 5 characters with at least one special characters', 'error')
+                    // }
+                    // else {
+                    //     Swal.fire('Incorrect Password!', 'The password must match, and must be of a minimum length of 5 characters with at least one special characters', 'error')
                     
-                    }
+                    // }
                    
                     // window.location.reload()
                     
