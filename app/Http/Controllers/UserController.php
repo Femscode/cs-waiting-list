@@ -39,7 +39,7 @@ class UserController extends Controller
       Mail::send('mail.verify', $data, function($message) {
          $message->to('fasanyafemi@gmail.com', '')->subject
             ('ConnectinSkillz Verification Email');
-         $message->from('info@connectinskillz.com','ConnectinSkillz');
+         $message->from('support@connectinskillz.com','ConnectinSkillz');
       });
       dd('mail sent');
         // dd($location);
@@ -149,7 +149,7 @@ class UserController extends Controller
         Mail::send('mail.verify', $data, function($message) use($email) {
            $message->to($email, '')->subject
               ('ConnectinSkillz Verification Email');
-           $message->from('info@connectinskillz.org','Connectinskillz');
+           $message->from('support@connectinskillz.com','Connectinskillz');
         });
         return response('User Subscribed Successfully',200);
        
@@ -198,7 +198,7 @@ class UserController extends Controller
         Mail::send('mail.verify', $data, function($message) use($email) {
            $message->to($email, '')->subject
               ('ConnectinSkillz Verification Email');
-           $message->from('info@connectinskillz.org','Connectinskillz');
+           $message->from('support@connectinskillz.com','Connectinskillz');
         });
         return 'created successfully';
     }
