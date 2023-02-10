@@ -107,15 +107,7 @@
                         window.location.replace("/login");
                     }
                     else {
-                        Swal.fire({
-                            title:"Password set successfully!",
-                            text:"Loading...",
-                            type:"success",
-                            showConfirmButton: false,
-                            timer:1000
-                        });
-                        window.location.replace("/login");
-                        // Swal.fire('Incorrect Password!', 'The password must match, and must be of a minimum length of 5 characters with at least one special characters', 'error')
+                        Swal.fire('Incorrect Password!', 'The password must match, and must be of a minimum length of 5 characters with at least one special characters', 'error')
                     
                     }
                    
@@ -125,7 +117,6 @@
                 error: function(data) {
                     console.log(data)
                     Swal.close()
-                    
                     Swal.fire('Incorrect Password!', 'The password must match, and must be of a minimum length of 5 characters with at least one special characters', 'error')
                     // window.location.reload()
                 }
