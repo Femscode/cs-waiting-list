@@ -83,9 +83,9 @@ class RegisterController extends Controller
         $subscribe->status = 1;
         $subscribe->save();
         if($data['referred_by'] !== null) {
-            $user = User::where('referral_id',$data['referred_by'])->first();
-            $user->referral_count += 1;
-            $user->save();
+            $new_user = User::where('referral_id',$data['referred_by'])->first();
+            $new_user->referral_count += 1;
+            $new_user->save();
         }
         return $user;
         return 'successfully verified';
