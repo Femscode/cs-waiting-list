@@ -45,7 +45,7 @@
                             <img src="{{asset('forgotpass/w-icon/popeye.svg')}}" alt="viewit" class="eye-icon"/>
                             </div>
                         </div>
-                        <p class="forget"><a href="/waitlist/forgot-password">forgot password?</a></p>
+                        <p class="forget"><a href="/forgot-password">forgot password?</a></p>
                         <button type='submit' class="login-btn">Join</button>
                     </form>
                 </div>

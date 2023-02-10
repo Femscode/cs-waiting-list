@@ -34,14 +34,14 @@
 
 
                             <div style="padding-bottom: 40px; text-align:center;">
-                                <a href="https://www.connectinskillz.com/waitlist/verify/{{ $ref }}" rel="noopener" target="_blank" rel="noopener"
+                                <a href="https://www.connectinskillz.com/verify/{{ $ref }}" rel="noopener" target="_blank" rel="noopener"
                                     style="text-decoration:none;display:inline-block;text-align:center;padding:0.75575rem 1.3rem;font-size:0.925rem;line-height:1.5;border-radius:0.35rem;color:#ffffff;background-color:#009EF7;border:0px;margin-right:0.75rem!important;font-weight:600!important;outline:none!important;vertical-align:middle"
                                     target="_blank">Verify</a>
                             </div>
 
                        <div style="padding-bottom: 30px"> For more enquiries, reach out to  
                        <!-- <a href="https://wa.me/447490901405?text=Hi%20,%20my%20name%20is%20(%20Input%20%20your%20name%20)%20.">Christaina</a>,
-                       --> <a href="mailto:info@connectinskillz.com">info@connectinskillz.com</a>,
+                       --> <a href="mailto:support@connectinskillz.com">support@connectinskillz.com</a>,
                        
                        or <a href="https://wa.me/447393830395?text=Hi%20,%20my%20name%20is%20(%20Input%20%20your%20name%20)%20.">Olayinka</a>.
                        </div>
