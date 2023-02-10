@@ -31,10 +31,11 @@
                         <input type="hidden" class="form-control" id="email" value="{{ $user->email }}">
                 <div class="pass-case">
                     <input type="password" id='password' placeholder="Password" name="view" >
-                    <img src="{{ asset('assets/w-icon/view.svg') }}" alt="viewit">
+                    <img id='pass_eye' src="{{ asset('assets/w-icon/view.svg') }}" alt="viewit">
                 </div>
                 <div class="pass-case">
                     <input type="password" id='password_confirmation' placeholder="Confirm Password" >
+                    <img id='conf_pass_eye' src="{{ asset('assets/w-icon/view.svg') }}" alt="viewit">
                 </div>
                
                 <button type='submit' class="reg-btn">Update</button>
@@ -54,6 +55,24 @@
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             }
         });
+        $("#pass_eye").click(function() {
+           
+            var inputType = $("#password").attr("type");
+                if (inputType === "text") {
+                    $("#password").attr("type", "password");
+                } else {
+                    $("#password").attr("type", "text");
+                }
+        })
+        $("#conf_pass_eye").click(function() {
+           
+            var inputType = $("#password_confirmation").attr("type");
+                if (inputType === "text") {
+                    $("#password_confirmation").attr("type", "password");
+                } else {
+                    $("#password_confirmation").attr("type", "text");
+                }
+        })
             $("#set_password").on("submit", async function(e) {
             
             e.preventDefault();

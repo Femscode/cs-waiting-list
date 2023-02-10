@@ -87,6 +87,7 @@ class RegisterController extends Controller
             $user->referral_count += 1;
             $user->save();
         }
+        return true;
         return $user;
         return 'successfully verified';
         return $user;
